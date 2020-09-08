@@ -386,6 +386,16 @@ h6 {
   margin: 0 auto;
   border-radius: 0.3rem;
 }
+
+.contact__form {
+  text-align: center;
+  padding: 4rem 0;
+  background: var(--mainGrey);
+  width: 80%;
+  margin: 4rem auto;
+  border-radius: 0.3rem;
+}
+
 .contact-center {
   width: 100%;
   margin: 0 auto;
@@ -395,7 +405,7 @@ h6 {
   border: 0.03rem solid var(--darkGrey);
   margin-bottom: 1rem;
   background: var(--offWhite);
-  height: 2.3rem;
+  height: 3rem;
   outline-width: 0;
 }
 .contact-center input::placeholder,
@@ -426,7 +436,7 @@ textarea::placeholder {
   color: #222;
   border: 1px solid var(--darkGrey);
 }
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 700px) {
   .contact-center {
     width: 85%;
   }
@@ -435,6 +445,10 @@ textarea::placeholder {
   }
   .contact {
     width: 100%;
+  }
+
+  .contact__form {
+    width: 50%;
   }
 }
 

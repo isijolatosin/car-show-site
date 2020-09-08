@@ -36,7 +36,7 @@ const ContactInfo = () => {
   //end of submit form
 
   return (
-    <section className='contact'>
+    <section className='contact__form'>
       <div className={sent ? 'msg__appear msg' : 'msg'}>
         your message is almost completed
       </div>
